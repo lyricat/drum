@@ -305,6 +305,9 @@ OPTIONAL_APPS = (
 
 # Drum-specific Mezzanine settings
 ACCOUNTS_PROFILE_MODEL = "links.Profile"
+# Downward compatibility for Mezzanine 4.1.0
+AUTH_PROFILE_MODULE = "links.Profile"
+
 SITE_TITLE = "Drum"
 RATINGS_RANGE = (-1, 1)
 RATINGS_ACCOUNT_REQUIRED = True
